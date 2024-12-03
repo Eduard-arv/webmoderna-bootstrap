@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+@media (min-width: 768px) {
+    .responsive-navbar {
+      position: fixed;
+      top: 0;
+      bottom: auto;
+    }
+
+    body {
+      padding-top: 56px; /* Espacio para el navbar en desktop */
+    }
+}
